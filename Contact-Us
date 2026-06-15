@@ -1,0 +1,84 @@
+<!-- contact.html (Contact Us Page) -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - MySite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="container">
+    <h1>Contact Us</h1>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Message:</label>
+        <textarea rows="5" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    © 2026 MySite. All rights reserved.
+</footer>
+
+</body>
+</html>
